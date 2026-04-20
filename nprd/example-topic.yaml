@@ -1,0 +1,12 @@
+apiVersion: kafka.kanggara.my.id/v1alpha1
+kind: KafkaTopic
+metadata:
+  name: example-topic
+spec:
+  partitions: 3
+  replicationFactor: 2
+  retentionMinutes: 1440
+  settings:
+    cleanup.policy: delete
+    min.insync.replicas: "2"
+    retention.bytes: "1073741824"
