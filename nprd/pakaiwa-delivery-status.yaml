@@ -3,7 +3,7 @@ kind: KafkaTopic
 metadata:
   name: pakaiwa-delivery-status
 spec:
-  partitions: 4
+  partitions: 5
   replicationFactor: 1 # Sesuaikan dengan jumlah broker Anda
   config:
     cleanup.policy: "delete,compact"
