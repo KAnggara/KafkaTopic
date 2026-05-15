@@ -4,7 +4,7 @@ metadata:
   name: pakaiwa-incoming-message
 spec:
   cluster: kafka-dev
-  partitions: 4
+  partitions: 2
   replicationFactor: 2 # Sesuaikan dengan jumlah broker Anda
   config:
     cleanup.policy: "delete,compact"
