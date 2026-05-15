@@ -3,7 +3,7 @@ kind: KafkaTopic
 metadata:
   name: pakaiwa-delivery-status
 spec:
-  clusterUrl: "kafka-dev-kanggara75.c.aivencloud.com:24227"
+  cluster: kafka-dev
   partitions: 2
   replicationFactor: 2 # Sesuaikan dengan jumlah broker Anda
   config:
