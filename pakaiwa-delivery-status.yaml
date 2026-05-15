@@ -3,7 +3,7 @@ kind: KafkaTopic
 metadata:
   name: pakaiwa-delivery-status
 spec:
-  cluster: kafka-dev
+  cluster: pakaiwa
   partitions: 2
   replicationFactor: 2 # Sesuaikan dengan jumlah broker Anda
   config:
