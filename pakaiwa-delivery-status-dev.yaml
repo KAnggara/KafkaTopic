@@ -15,4 +15,4 @@ spec:
     retention.ms: "600000"
     segment.bytes: "536870912"
     segment.ms: "3600000"
-    unclean.leader.election.enable: "false"
+    unclean.leader.election.enable: "true"
