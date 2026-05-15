@@ -3,8 +3,9 @@ kind: KafkaTopic
 metadata:
   name: pakaiwa-incoming-message-dev
 spec:
+  clusterUrl: "kafka-dev-kanggara75.c.aivencloud.com:24227"
   partitions: 2
-  replicationFactor: 1 # Sesuaikan dengan jumlah broker Anda
+  replicationFactor: 2 # Sesuaikan dengan jumlah broker Anda
   config:
     cleanup.policy: "delete,compact"
     compression.type: "snappy"
