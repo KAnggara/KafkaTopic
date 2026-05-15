@@ -11,7 +11,6 @@ spec:
     compression.type: "snappy"
     max.message.bytes: "5242880"
     message.timestamp.type: "CreateTime"
-    min.cleanable.dirty.ratio: "0.1"
     retention.ms: "600000"
     segment.bytes: "536870912"
     segment.ms: "3600000"
